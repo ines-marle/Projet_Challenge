@@ -1,13 +1,21 @@
 body {
     background-color: #000000;
 }
-h1{
-    color : #ffffff;
-    text-align: center;
+
+h1 {
+    color: #ffffff;
+    text-align: left;
 }
 
-h2{
-    color :#00ffa9;
-    text-align: center;
+h2 {
+    color: #00ffa9;
+    text-align: left;
 }
 
+fa fa-adjust{
+    position: right;
+}
+
+div{
+    position: right;
+}
