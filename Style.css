@@ -38,3 +38,10 @@ i {
     color: #ffffff;
 
 }
+
+.grid img:nth-child(n + 10) {
+    display: flex;
+    justify-content : space-around ; align-items : center
+    
+    
+}
