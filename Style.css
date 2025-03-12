@@ -1,13 +1,40 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 body {
     background-color: #000000;
 }
 
 h1 {
     color: #ffffff;
-    text-align: left;
+    font-size: 80%;
+    font-weight: 65%;
 }
 
 h2 {
+    color: #ffffff;
+}
+
+h3 {
     color: #00ffa9;
     text-align: left;
+    font-family: "Montserrat";
+    font-weight: 9999;
+}
+
+
+button {
+    flex-direction: center;
+}
+
+p {
+    color: #969ba4;
+}
+
+i {
+    color: #ffffff;
+
 }
