@@ -16,6 +16,9 @@ h1 {
 
 h2 {
     color: #ffffff;
+
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
 }
 
 h3 {
@@ -26,22 +29,22 @@ h3 {
 }
 
 
-button {
-    flex-direction: center;
-}
-
 p {
     color: #969ba4;
 }
 
 i {
     color: #ffffff;
-
 }
 
 .grid img:nth-child(n + 10) {
     display: flex;
-    justify-content : space-around ; align-items : center
-    
-    
+    justify-content: space-around;
+    align-items: center
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    padding: auto;
 }
