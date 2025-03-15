@@ -11,21 +11,30 @@ body {
 
 h1 {
     color: #ffffff;
-    font-family: "Yeseva One", serif;
-    font-weight: 400;
+    font-size: 20pt;
 }
 
-
 h2 {
+    font-family: "Yeseva One", serif;
+    color: #ffffff;
+    font-size: 35pt;
+}
+
+h3 {
     color: #00ffa9;
     text-align: left;
     font-family: "Montserrat", serif;
-    font-weight: 9999;
+    font-size: 30pt;
 }
 
+h4 {
+    color: #ffffff;
+    font-size: 15pt;
+}
 
 p {
     color: #969ba4;
+    font-size: 15pt;
 }
 
 i {
@@ -47,7 +56,14 @@ footer {
 }
 
 div {
+    color: #ffffff;
+    font-family: "Yeseva One", serif;
     display: flex;
     justify-content: center;
-    padding: auto;
+    gap: 15px;
+
+}
+
+span {
+    background-color: #00ffa9;
 }
