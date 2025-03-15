@@ -2,6 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid grey;
 }
 
 body {
@@ -10,21 +11,15 @@ body {
 
 h1 {
     color: #ffffff;
-    font-size: 80%;
-    font-weight: 65%;
-}
-
-h2 {
-    color: #ffffff;
-
     font-family: "Yeseva One", serif;
     font-weight: 400;
 }
 
-h3 {
+
+h2 {
     color: #00ffa9;
     text-align: left;
-    font-family: "Montserrat";
+    font-family: "Montserrat", serif;
     font-weight: 9999;
 }
 
@@ -41,6 +36,14 @@ i {
     display: flex;
     justify-content: space-around;
     align-items: center
+}
+
+nav {
+    padding-left: 10%;
+}
+
+footer {
+    padding-left: 10%;
 }
 
 div {
