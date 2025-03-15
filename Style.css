@@ -82,3 +82,26 @@ span {
     background-color: #00ffa9;
     height: 60px;
 }
+
+.gallery {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media screen and (max-width:480px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (min-width:481px) and (max-width:1042px) {
+    .gallery {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
