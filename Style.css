@@ -2,6 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
     border-bottom: 2px solid grey;
 }
 
@@ -32,9 +33,9 @@ h4 {
     font-size: 12pt;
 }
 
-h5{
-    color :  #000000;
-    font-size : 8;
+h5 {
+    color: #000000;
+    font-size: 8;
 
 }
 
@@ -61,13 +62,20 @@ footer {
     padding-left: 10%;
 }
 
+
 div {
     color: #ffffff;
     font-family: "Yeseva One", serif;
     display: flex;
     justify-content: center;
     gap: 30px;
-    height: 100px;
+}
+
+div p {
+    color: #969ba4;
+    font-size: 15pt;
+    display: flex;
+    justify-content: center;
 }
 
 span {
