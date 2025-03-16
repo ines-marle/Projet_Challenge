@@ -8,6 +8,7 @@ header {
 
 body {
     background-color: #000000;
+    font-size: 16px;
 }
 
 h1 {
@@ -35,7 +36,7 @@ h4 {
 
 h5 {
     color: #000000;
-    font-size: 8;
+    font-size: 8pt;
 
 }
 
@@ -68,7 +69,8 @@ div {
     font-family: "Yeseva One", serif;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 15px;
+    margin: auto;
 }
 
 div p {
@@ -93,6 +95,7 @@ span {
     width: 100%;
     height: auto;
     display: block;
+    margin: auto;
 }
 
 @media screen and (max-width:480px) {
@@ -100,8 +103,21 @@ span {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
 @media screen and (min-width:481px) and (max-width:1042px) {
     .gallery {
         grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
     }
 }
